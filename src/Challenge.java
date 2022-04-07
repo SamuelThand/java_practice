@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Challenge {
@@ -28,6 +29,17 @@ public class Challenge {
                 if (element > n) exists = true;
             }
             return exists;
+        }
+    }
+
+    public class ArrayOfMultiples {
+        public static int[] buildArray(int number, int length) {
+            int[] multiples = new int[length];
+            for (int i = 0; i < length; i++) {
+                multiples[i] = number * (i + 1);
+                System.out.println(Arrays.toString(multiples));
+            }
+            return multiples;
         }
     }
 }

@@ -37,11 +37,15 @@ class Main {
 //        enemies[0].Talk();
 //        enemies[1].Talk();
 
-        Vampire vampire = new Vampire();
+//        Vampire vampire = new Vampire();
+//
+//        vampire.setHealth(25);
+//
+//        vampire.getHealth();
+        System.out.println(Challenge.ArrayOfMultiples.buildArray(7, 5));
 
-        vampire.setHealth(25);
 
-        vampire.getHealth();
+
 
     }
 }
