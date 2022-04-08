@@ -42,7 +42,14 @@ class Main {
 //        vampire.setHealth(25);
 //
 //        vampire.getHealth();
-        System.out.println(Challenge.ArrayOfMultiples.buildArray(7, 5));
+//
+//        ArrayofMultiples Challenge
+//        System.out.println(Challenge.ArrayOfMultiples.buildArray(7, 5));
+
+//        Stringmatching Challenge
+
+        System.out.println(Challenge.StringMatching.checkStringMatching("Samurai", "zi"));
+        System.out.println(Challenge.StringMatching.checkStringMatching("feminine", "nine"));
 
 
 

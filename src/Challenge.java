@@ -42,4 +42,12 @@ public class Challenge {
             return multiples;
         }
     }
+
+    public class StringMatching {
+        public static boolean checkStringMatching(String string1, String string2) {
+            String endOfString1 = string1.substring((string1.length() - string2.length()));
+            return endOfString1.contentEquals(string2);
+        }
+    }
+
 }
