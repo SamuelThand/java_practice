@@ -57,12 +57,17 @@ class ChallengeDriver {
 //        System.out.println("Equal numbers = " + Challenge.EqualityOf3Values.checkEquality(3, 4, 3));
 
 //      Basic Calculator Challenge
-        System.out.println(Challenge.basicCalculator.calculate(3, '+', 3));
-        System.out.println(Challenge.basicCalculator.calculate(3, '-', 3));
-        System.out.println(Challenge.basicCalculator.calculate(3, '*', 3));
-        System.out.println(Challenge.basicCalculator.calculate(3, '/', 3));
-        System.out.println(Challenge.basicCalculator.calculate(0, '/', 0));
-        System.out.println(Challenge.basicCalculator.calculate(3, 'p', 3));
+//        System.out.println(Challenge.basicCalculator.calculate(3, '+', 3));
+//        System.out.println(Challenge.basicCalculator.calculate(3, '-', 3));
+//        System.out.println(Challenge.basicCalculator.calculate(3, '*', 3));
+//        System.out.println(Challenge.basicCalculator.calculate(3, '/', 3));
+//        System.out.println(Challenge.basicCalculator.calculate(0, '/', 0));
+//        System.out.println(Challenge.basicCalculator.calculate(3, 'p', 3));
+
+        String[] rooksPair = {"A8", "E8"};
+        System.out.println(Challenge.captureTheRook.canCapture(rooksPair));
+//        Challenge.captureTheRook.canCapture(rooksPair);
+
 
 
 
