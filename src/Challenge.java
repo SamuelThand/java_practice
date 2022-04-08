@@ -81,4 +81,18 @@ public class Challenge {
         }
     }
 
+    public class phoneNumberFormatting {
+        public static String formatNumbers(int[] numbers) {
+        //Hashmap implementation?
+            StringBuilder phoneNumber = new StringBuilder();
+            for (int i = 0; i < numbers.length; i += 1) {
+                phoneNumber.append(numbers[i]);
+            }
+            phoneNumber.insert(0, '(');
+            phoneNumber.insert(4, ')');
+            phoneNumber.insert(5, ' ');
+            phoneNumber.insert(9, '-');
+            return phoneNumber.toString();
+        }
+    }
 }

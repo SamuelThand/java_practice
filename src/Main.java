@@ -64,10 +64,13 @@ class ChallengeDriver {
 //        System.out.println(Challenge.basicCalculator.calculate(0, '/', 0));
 //        System.out.println(Challenge.basicCalculator.calculate(3, 'p', 3));
 
-        String[] rooksPair = {"A8", "E8"};
-        System.out.println(Challenge.captureTheRook.canCapture(rooksPair));
-//        Challenge.captureTheRook.canCapture(rooksPair);
+//        Capture the rook challenge
+//        String[] rooksPair = {"A8", "E8"};
+//        System.out.println(Challenge.captureTheRook.canCapture(rooksPair));
 
+//        Phone number formatting challenge
+//        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+//        System.out.println(Challenge.phoneNumberFormatting.formatNumbers(numbers));
 
 
 
