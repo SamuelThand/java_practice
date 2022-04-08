@@ -50,4 +50,11 @@ public class Challenge {
         }
     }
 
-}
+    public class EqualityOf3Values {
+        public static int checkEquality(int num1, int num2, int num3) {
+            int equalValues = 0;
+            if (num1 == num2 && num1 == num3) equalValues = 3;
+            else if (num1 == num2 || num1 == num3) equalValues = 2;
+            return equalValues;
+        }
+    }

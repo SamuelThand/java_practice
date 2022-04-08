@@ -1,4 +1,4 @@
-class Main {
+class ChallengeDriver {
     public static void main(String[] args) {
 
 //        differenceMaxMin
@@ -48,8 +48,14 @@ class Main {
 
 //        Stringmatching Challenge
 
-        System.out.println(Challenge.StringMatching.checkStringMatching("Samurai", "zi"));
-        System.out.println(Challenge.StringMatching.checkStringMatching("feminine", "nine"));
+//        System.out.println(Challenge.StringMatching.checkStringMatching("Samurai", "zi"));
+//        System.out.println(Challenge.StringMatching.checkStringMatching("feminine", "nine"));
+
+//      Equality of values challenge
+        System.out.println("Equal numbers = " + Challenge.EqualityOf3Values.checkEquality(3, 4, 3));
+        System.out.println("Equal numbers = " + Challenge.EqualityOf3Values.checkEquality(3, 3, 3));
+        System.out.println("Equal numbers = " + Challenge.EqualityOf3Values.checkEquality(1, 2, 3));
+
 
 
 
