@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -58,3 +59,17 @@ public class Challenge {
             return equalValues;
         }
     }
+
+    public class basicCalculator {
+        public static int calculate(int num1, char operator, int num2){
+            if (num2 == 0 && operator == '/') return 0;
+            return switch (operator) {
+                case '+' -> num1 + num2;
+                case '-' -> num1 - num2;
+                case '*' -> num1 * num2;
+                case '/' -> num1 / num2;
+                default -> throw new IllegalStateException(
+                "Incorrect operator: " + operator + " Allowed values = + - * /");
+            };
+        }
+    }}

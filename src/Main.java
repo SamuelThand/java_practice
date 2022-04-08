@@ -1,5 +1,7 @@
+import java.io.IOException;
+
 class ChallengeDriver {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
 //        differenceMaxMin
 //        System.out.println(Challenge.differenceMaxMin(new int[]{10, 4, 1, 2, 8, 91}));
@@ -52,9 +54,15 @@ class ChallengeDriver {
 //        System.out.println(Challenge.StringMatching.checkStringMatching("feminine", "nine"));
 
 //      Equality of values challenge
-        System.out.println("Equal numbers = " + Challenge.EqualityOf3Values.checkEquality(3, 4, 3));
-        System.out.println("Equal numbers = " + Challenge.EqualityOf3Values.checkEquality(3, 3, 3));
-        System.out.println("Equal numbers = " + Challenge.EqualityOf3Values.checkEquality(1, 2, 3));
+//        System.out.println("Equal numbers = " + Challenge.EqualityOf3Values.checkEquality(3, 4, 3));
+
+//      Basic Calculator Challenge
+        System.out.println(Challenge.basicCalculator.calculate(3, '+', 3));
+        System.out.println(Challenge.basicCalculator.calculate(3, '-', 3));
+        System.out.println(Challenge.basicCalculator.calculate(3, '*', 3));
+        System.out.println(Challenge.basicCalculator.calculate(3, '/', 3));
+        System.out.println(Challenge.basicCalculator.calculate(0, '/', 0));
+        System.out.println(Challenge.basicCalculator.calculate(3, 'p', 3));
 
 
 
